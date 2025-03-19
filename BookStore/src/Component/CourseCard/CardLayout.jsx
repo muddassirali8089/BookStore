@@ -1,10 +1,9 @@
 import React from "react";
-import "./CardLayout.css";
-import CourseCard from "./CourseCard.jsx";
-import courseImage from "../assets/cardImg.png";
-import onlinecourseimg3 from "../assets/onlinecourseimg3.png";
-import onlinecourseimg1 from "../assets/onlinecourseimg1.png";
-
+import "../CourseCard/CardLayout.css";
+import CourseCard from "../CourseCard/CourseCard.jsx";
+import courseImage from "../../assets/cardImg.png";
+import onlinecourseimg3 from "../../assets/onlinecourseimg3.png";
+import onlinecourseimg1 from "../../assets/onlinecourseimg1.png";
 
 const courses = [
   {
@@ -50,10 +49,6 @@ function CardLayout() {
 
 export default CardLayout;
 
-
-
-
-
 // import React from 'react'
 // import './CardLayout.css'
 // import CourseCard from './CourseCard.jsx'
@@ -61,10 +56,8 @@ export default CardLayout;
 // function CardLayout() {
 //   return (
 //     <div className='container'>
-//         <div className='row card-grid-container'> 
+//         <div className='row card-grid-container'>
 //                 <CourseCard/>
-                
-                
 
 //         </div>
 //     </div>

@@ -1,16 +1,14 @@
 import React from "react";
-import HomePng from "../assets/homepng.png";
-import "../Component/HomePage.css"; // Import the CSS file
-import SearchInput from "./SearchInput";
-import vector1 from "../assets/Vector.png"
-import Vector2 from "../assets/Vector2.png"
-import icon3 from "../assets/icon3.png"
-import icon4 from "../assets/icon4.png"
-import icon5 from "../assets/icon5.png"
-import icon6 from "../assets/icon6.png"
-import Ellipse1 from "../assets/Ellipse1.png"
-
-
+import HomePng from "../../assets/homepng.png";
+import "../HomePage/HomePage.css"; // Import the CSS file
+import SearchInput from "../Searchinput/SearchInput";
+import vector1 from "../../assets/Vector.png";
+import Vector2 from "../../assets/Vector2.png";
+import icon3 from "../../assets/icon3.png";
+import icon4 from "../../assets/icon4.png";
+import icon5 from "../../assets/icon5.png";
+import icon6 from "../../assets/icon6.png";
+import Ellipse1 from "../../assets/Ellipse1.png";
 
 import { FaLightbulb, FaFlask, FaAtom, FaQuestionCircle } from "react-icons/fa"; // Import Icons
 
@@ -18,17 +16,13 @@ const HomePage = () => {
   return (
     <div className="container home-container position-relative">
       {/* Background Icons */}
-     
-      <img src={vector1} alt=""  className="bg-icon icon-1"/>
-      <img src={Vector2} alt=""  className="bg-icon icon-2"/>
-      <img src={icon3} alt=""  className="bg-icon icon-3"/>
-      <img src={icon4} alt=""  className="bg-icon icon-4"/>
-      <img src={icon5} alt=""  className="bg-icon icon-5"/>
-      <img src={icon6} alt=""  className="bg-icon icon-6"/>
-     
 
-      
-      
+      <img src={vector1} alt="" className="bg-icon icon-1" />
+      <img src={Vector2} alt="" className="bg-icon icon-2" />
+      <img src={icon3} alt="" className="bg-icon icon-3" />
+      <img src={icon4} alt="" className="bg-icon icon-4" />
+      <img src={icon5} alt="" className="bg-icon icon-5" />
+      <img src={icon6} alt="" className="bg-icon icon-6" />
 
       <div className="row d-flex align-items-center">
         <div className="col-md-5 leftmain">

@@ -1,8 +1,8 @@
 import React from "react";
-import "../Component/SearchInput.css";
+import "../Searchinput/SearchInput.css";
 import { InputGroup, FormControl } from "react-bootstrap";
-import { Search } from "react-bootstrap-icons"; // Search icon
-import continuebtn from "../assets/continuebtn.png";
+import { Search } from "react-bootstrap-icons"; 
+import continuebtn from "../../assets/continuebtn.png";
 
 const SearchInput = () => {
   return (

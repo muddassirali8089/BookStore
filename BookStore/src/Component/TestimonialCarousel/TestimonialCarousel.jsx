@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation"; // Add navigation styles
-import profile1 from "../assets/profile1.png";
-import "./TestimonialCarousel.css";
+import profile1 from "../../assets/profile1.png";
+import "../TestimonialCarousel/TestimonialCarousel.css";
 import { Pagination, Navigation, Autoplay } from "swiper/modules"; // Import navigation & autoplay
 
 const testimonials = [

@@ -1,7 +1,7 @@
 import React from "react";
-import "./CourseCard.css";
-import { Card, Button } from "react-bootstrap";
-import { StarFill, Clock, Book, Cart, MicFill, Download, CameraVideoFill } from "react-bootstrap-icons";
+import { Button, Card } from "react-bootstrap";
+import { CameraVideoFill, Clock, Download, StarFill } from "react-bootstrap-icons";
+import "../CourseCard/CourseCard.css";
 
 const CourseCard = ({ image, category, title, price, duration, courses, sales }) => {
   return (

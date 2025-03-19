@@ -1,9 +1,9 @@
 import React from "react";
 import ProfileCard from "./ProfileCard";
-import men1 from "../assets/men1.png";
-import girl1 from "../assets/girl1.png";
-import girl2 from "../assets/girl2.png"; // Import images
-import "./profileCardLayout.css";
+import men1 from "../../assets/men1.png";
+import girl1 from "../../assets/girl1.png";
+import girl2 from "../../assets/girl2.png"; // Import images
+import "../ProfileCard/profileCardLayout.css";
 
 const profiles = [
   {

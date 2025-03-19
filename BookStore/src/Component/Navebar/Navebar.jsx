@@ -1,11 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/logo.png'; 
-import SignIn from '../assets/SignIn.png'; 
-import '../Component/Navebar.css';
+import logo from '../../assets/logo.png';
+import SignIn from '../../assets/SignIn.png';
+import '../Navebar/Navebar.css';
 
-function BasicExample() {
+function Navebar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary naveBody" >
       <Container className="custom-container">
@@ -30,4 +30,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Navebar;

@@ -1,8 +1,8 @@
 import React from "react";
-import "./HeroSection.css"; // Import the CSS file
-import onlinetest1 from "../assets/onlinetest1.png";
-import exam1 from "../assets/exam1.png";
-import certification1 from "../assets/certification1.png";
+import "../HeroSection/HeroSection.css"; // Import the CSS file
+import onlinetest1 from "../../assets/onlinetest1.png";
+import exam1 from "../../assets/exam1.png";
+import certification1 from "../../assets/certification1.png";
 
 
 

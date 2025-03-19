@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./LearningExperience.css";
-import learningImg from "../assets/learningImg.png"; // Replace with actual image path
-import icon1 from "../assets/icon1.png"; // Replace with actual icon paths
-import icon2 from "../assets/icon2.png";
+import "../LearningExperience/LearningExperience.css";
+import learningImg from "../../assets/learningImg.png"; // Replace with actual image path
+import icon1 from "../../assets/icon1.png"; // Replace with actual icon paths
+import icon2 from "../../assets/icon2.png";
 
 const LearningExperience = () => {
   return (

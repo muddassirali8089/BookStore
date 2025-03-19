@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
-import "./ProfileCard.css"; // Custom CSS file for styling
+import "../ProfileCard/ProfileCard.css"; // Custom CSS file for styling
 
 const ProfileCard = ({ image, name, role, text, subject, insta, linkedin }) => {
   return (

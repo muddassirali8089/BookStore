@@ -1,10 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Footer.css";
-import logo from '../assets/logo.png'; 
+import "../Footer/Footer.css";
+import logo from '../../assets/logo.png'; 
 const Footer = () => {
   return (
-    <footer className="footer-section">
+    <footer className="footer-section  mt-sm-2 mt-md-5">
       <div className="container">
         <div className="row">
           {/* Book Store Info */}

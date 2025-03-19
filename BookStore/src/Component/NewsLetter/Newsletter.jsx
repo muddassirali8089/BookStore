@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Newsletter.css"; // Custom styles
+import "../NewsLetter/Newsletter.css"; // Custom styles
 
 const Newsletter = () => {
   return (

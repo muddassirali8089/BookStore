@@ -1,7 +1,7 @@
 import React from 'react'
-import "./OurTrack.css"; // Import the CSS file
-import lamp from "../assets/lamp.png";
-import Group from "../assets/Group.png";
+import "../OurTracks/OurTrack.css"; // Import the CSS file
+import lamp from "../../assets/lamp.png";
+import Group from "../../assets/Group.png";
 function OurTrack() {
   return (
     <div className='container '>
