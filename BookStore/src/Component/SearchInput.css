@@ -1,0 +1,51 @@
+.custom-input {
+    max-width: 400px;
+    background-color: white; /* Light beige background */
+    border-radius: 50px;
+    overflow: hidden; /* Ensures smooth rounded corners */
+    display: flex;
+    align-items: center;
+    
+}
+
+.custom-input .form-control {
+    border: none;
+    box-shadow: none;
+    background: none;
+    flex: 1; /* Allow input to grow */
+    font-size: 16px;
+   padding: 0px !important;
+}
+
+.custom-input .input-group-text {
+    background: none;
+    border: none;
+   
+    color: #5A6473;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    font-size: 18px;
+}
+
+.continue-btn {
+    height: 50px;
+    width: 100px;
+   
+}
+
+.continue-btn:hover {
+    cursor: pointer;
+}
+@media (max-width: 575.98px) {
+
+    .continue-btn {
+        height: 41px;
+        width: 73px;
+       
+    }
+
+
+}

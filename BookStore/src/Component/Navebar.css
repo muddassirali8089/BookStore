@@ -1,0 +1,22 @@
+.naveBody{
+  background-color: #FDF8EE !important;
+}
+.nav-link {
+    /* Apply styles to all Nav.Link elements */
+    
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0%;
+    line-height: 100%;
+    color: #1D1D1D;
+  }
+  .nav-link-gap{
+    margin-right: 15px;
+  }
+  @media (max-width: 768.98px) {
+
+
+    .nav-link-gap{
+      margin-right: 0px;
+    }
+  }

@@ -1,0 +1,29 @@
+.course-card {
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: start;
+  max-width: 400px;
+  margin: auto;
+
+  border: 2px solid #ff66b2; /* Pink border */
+margin-bottom: 5vh;
+}
+
+.course-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+.join-btn {
+  background-color: #ff6600;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 50px;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.join-btn:hover {
+  background-color: #cc5500;
+}

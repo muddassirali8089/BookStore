@@ -1,0 +1,9 @@
+.profile-card-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; /* Space between cards */
+    justify-content: start; /* Ensures new rows align to the start */
+    max-width: 1200px; /* Optional: Set max width */
+    
+    margin: 50px auto; /* Centers grid container */
+}
